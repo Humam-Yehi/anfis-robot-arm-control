@@ -28,34 +28,6 @@ ANFIS combines:
 
 This makes it a strong candidate for intelligent robotic control.
 
----
-
-## 📂 Project Structure
-anfis-robot-arm-control/
-│
-├── models/
-│   ├── arm_dynamics.py
-│   ├── anfis.py
-│   └── pid.py
-│
-├── training/
-│   ├── data_generation.py
-│   ├── supervised_training.py
-│   └── finetuning.py
-│
-├── evaluation/
-│   ├── metrics.py
-│   ├── simulation.py
-│   └── dashboard.py
-│
-├── experiments/
-│   └── experiment_runner.py
-│
-├── results/
-│
-└── main.py
-
----
 
 ## ⚙️ System Description
 
@@ -111,8 +83,8 @@ anfis-robot-arm-control/
 ```bash
 git clone https://github.com/YOUR_USERNAME/anfis-robot-arm-control.git
 cd anfis-robot-arm-control
-### 2️⃣ Install dependencies
+2️⃣ Install dependencies
 pip install numpy matplotlib
-### 3️⃣ Run the experiment
+3️⃣ Run the experiment
 python main.py
 
